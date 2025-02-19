@@ -31,6 +31,6 @@ router
   .delete("/delete-expense/:id", protect, deleteExpense); // Delete expense
 
 // Prediction Route (Protected)
-router.post("/predict-expenses", protect, predictExpenses); // Predict future expenses
+router.post("/predict-expense", protect, predictExpenses); // Predict future expenses
 
 module.exports = router;
